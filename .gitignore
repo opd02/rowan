@@ -1,13 +1,27 @@
-.venv/
+# Secrets / credentials
+*.key
+*.pem
+id_ed25519
+id_ed25519.pub
+config/secrets*
+.env
+
+# Runtime database
+orcestrator.db
+orcestrator.db-wal
+orcestrator.db-shm
+
+# Logs / runtime files
+logs/
+*.log
+rowan.lock
+
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
 
-orchestrator.db
-orchestrator.db-shm
-orchestrator.db-wal
-
-logs/*
-!logs/.gitkeep
-
-config/secrets*
-*.key
+# OS/editor
+.DS_Store
+.vscode/
