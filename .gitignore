@@ -7,9 +7,9 @@ config/secrets*
 .env
 
 # Runtime database
-orcestrator.db
-orcestrator.db-wal
-orcestrator.db-shm
+orchestrator.db
+orchestrator.db-wal
+orchestrator.db-shm
 
 # Logs / runtime files
 logs/
