@@ -25,3 +25,4 @@ venv/
 # OS/editor
 .DS_Store
 .vscode/
+orchestrator.db
