@@ -48,7 +48,7 @@ A typical structure is:
 
 ```text
 rowan/
-├── orcestrator.db
+├── orchestrator.db
 ├── schema.sql
 ├── run_cycle.sh
 ├── src/
@@ -61,7 +61,7 @@ rowan/
     └── restart_schema.json
 ```
 
-### `orcestrator.db`
+### `orchestrator.db`
 
 SQLite is Rowan's persistent memory.
 
