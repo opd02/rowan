@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "action",
+    "reason",
+    "submit_script"
+  ],
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "RESTART_READY",
+        "NO_RESTART_NEEDED",
+        "HUMAN_REVIEW"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "submit_script": {
+      "type": ["string", "null"]
+    }
+  }
+}
